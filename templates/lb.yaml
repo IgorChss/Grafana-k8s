@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/version: 1.16.0
     argocd.argoproj.io/instance: grafana
     helm.sh/chart: grafana-0.1.0
-  name: grafana
+  name: grafana-lb
   namespace: grafana
 spec:
   ports:
