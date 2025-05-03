@@ -12,7 +12,7 @@ metadata:
   namespace: grafana
 spec:
   ports:
-    - name: http
+    - name: "http"
       port: 80
       protocol: TCP
       targetPort: 30444
